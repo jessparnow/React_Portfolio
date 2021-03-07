@@ -1,0 +1,20 @@
+[
+    {
+        "name": "ProjectName",
+        "image": "img",
+        "description": "A short project description",
+        "github": "git hub link"
+    },
+    {
+        "name": "ProjectName_1",
+        "image": "projecting",
+        "description": "A slightly longer project description",
+        "github": "git hub link"
+    },
+    {
+        "name": "ProjectName",
+        "image": "projection",
+        "description": "An even slightly longer project description",
+        "github": "git hub link"
+    }
+]
