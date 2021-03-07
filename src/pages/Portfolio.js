@@ -1,29 +1,26 @@
-import React, {useState} from "react";
-import projects from "../portfolio.json"
-import workout from "../images/workouttracker.png"
+import React, { useState } from "react";
+import ProjectsCard from "../components/ProjectsCard";
+import projects from "../portfolio.json";
 
-function Portfolio () {
-    // let projects = props.projects;
-
-    const [developerState] = useState({
-        projects,
-        name: "Workout Tracker",
-        description: "App to keep track of daily workouts and data over time.",
-        github: "https://github.com/jessparnow/WorkoutTracker",
-        app_page: "https://limitless-bastion-88861.herokuapp.com/?id=60208d34225a5100153538c1"
-      });
-    return (
-       
-   
-<div className="card">
-  <img src={workout} className="card-img-top" alt="..." style={{width:"18rem"}} />
-  <div className="card-body">
-    <h5 className="card-title">{developerState.name}</h5>
-    <p className="card-text">{developerState.description}</p>
-    <a href={developerState.github} className="btn btn-primary">GitHub</a>
-    <a href={developerState.app_page} className="btn btn-primary">App Page</a>
-  </div>
-</div>
-    )
+function Portfolio() {
+  let developerState = useState({
+    name: projects.name,
+    image: projects.image,
+    description: projects.description,
+    github: projects.github,
+    app_page: projects.app_page,
+  });
+  console.log(developerState);
+  return (
+    <div>
+      {developerState.map(() => (
+      <ProjectsCard
+        
+          projects={projects}
+        
+      />
+      ))}
+    </div>
+  );
 }
 export default Portfolio;

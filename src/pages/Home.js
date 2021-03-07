@@ -4,12 +4,12 @@ import jess from "../images/jess.jpg"
 function Home() {
   return (
     <div>
-      <h1>Home Page</h1>
+      <h1>About Me</h1>
       <div class="col-sm-3">
       <img src={jess} alt="A young woman smiling and siting next to a plant" width="280px" id="profileImg" />
         </div>
       <div className="col-sm-7">
-        <h2 id="aboutMeHeader">About Me</h2>
+    
 
         <p className="about">
           I'm Jess. I'm currently working as a team lead at the soon to be

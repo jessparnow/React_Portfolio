@@ -1,9 +1,10 @@
 [
     {
-        "name": "ProjectName",
+        "name": "Workout Tracker",
         "image": "img",
-        "description": "A short project description",
-        "github": "git hub link"
+        "description": "App designed to help you keep track of workouts and data collected over time.",
+        "github": "https://github.com/jessparnow/WorkoutTracker",
+        "app_page": "https://limitless-bastion-88861.herokuapp.com/?id=60208d34225a5100153538c1"
     },
     {
         "name": "ProjectName_1",
