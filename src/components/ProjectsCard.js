@@ -1,9 +1,11 @@
 import React from "react";
 import projects from "../portfolio.json";
 
-function ProjectsCard(developerState) {
-  developerState = projects;
+function ProjectsCard() {
+  let developerState = projects;
+  console.log(developerState)
   return (
+    
     <div className="card">
       <img
         src={developerState.image}
@@ -22,6 +24,7 @@ function ProjectsCard(developerState) {
         </a>
       </div>
     </div>
+    
   );
 }
 export default ProjectsCard;

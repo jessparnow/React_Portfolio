@@ -4,19 +4,19 @@ import projects from "../portfolio.json";
 
 function Portfolio() {
   let developerState = useState({
-    name: projects.name,
-    image: projects.image,
-    description: projects.description,
-    github: projects.github,
-    app_page: projects.app_page,
+   projects
   });
-  console.log(developerState);
+  //console.log(developerState);
   return (
     <div>
       {developerState.map(() => (
       <ProjectsCard
         
-          projects={projects}
+          name={projects.name}
+          image={projects.image}
+          description={projects.description}
+          github={projects.github}
+          app_page={projects.app_page}
         
       />
       ))}
