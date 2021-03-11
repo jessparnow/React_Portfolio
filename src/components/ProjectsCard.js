@@ -5,13 +5,17 @@ function ProjectsCard(props) {
  console.log(props);
   return (
     
-    <div className="card">
+    <div className="card mb-3" style={{ width: "540px;" }}>
+      <div className="row g-0">
+      <div className="col-sm-4">
       <img
         src={props.image}
         className="card-img-top"
         alt="..."
-        style={{ width: "18rem" }}
+        style={{ width: "20rem" }}
       />
+      </div>
+      <div className="col-sm-8">
       <div className="card-body">
         <h5 className="card-title">{props.name}</h5>
         <p className="card-text">{props.description}</p>
@@ -21,8 +25,10 @@ function ProjectsCard(props) {
         <a href={props.app_page} className="btn btn-primary">
           App Page
         </a>
+        </div>
       </div>
     </div>
+  </div>
     
   );
 }

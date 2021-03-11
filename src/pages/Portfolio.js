@@ -9,7 +9,8 @@ class Portfolio extends Component {
   render() {
     
     return (
-      <div>
+      <div className="container">
+      
         {this.state.projects.map((projects) => (
           <ProjectsCard
       
@@ -20,6 +21,7 @@ class Portfolio extends Component {
             app_page={projects.app_page}
           />
         ))}
+       
       </div>
     );
   }
