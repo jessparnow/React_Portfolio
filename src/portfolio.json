@@ -1,7 +1,7 @@
 [
     {
         "name": "Workout Tracker",
-        "image": "img",
+        "image": "https://user-images.githubusercontent.com/71057611/107165847-d165c880-6979-11eb-9446-738beaa0bb02.png",
         "description": "App designed to help you keep track of workouts and data collected over time.",
         "github": "https://github.com/jessparnow/WorkoutTracker",
         "app_page": "https://limitless-bastion-88861.herokuapp.com/?id=60208d34225a5100153538c1"
