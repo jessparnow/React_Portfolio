@@ -14,9 +14,11 @@ https://jessparnow.github.io/React_Portfolio/
 ![mobileportfolio](https://user-images.githubusercontent.com/71057611/110873889-49d0e980-8298-11eb-9e60-64be1c249ee3.png)
 
 
-
 ## Contribution
 To make contributions open an issue at <br>
 https://github.com/jessparnow/React_Portfolio
 <br>
 or email me at jessparnow@gmail.com
+
+## Attribution 
+Background by <a href="https://www.vectorstock.com/royalty-free-vector/abstract-polygonal-background-vector-1999390">Vector image by VectorStock / artshock</a>

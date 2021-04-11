@@ -5,10 +5,11 @@ function Home() {
   return (
     <div>
       <h1>About Me</h1>
-      <div class="col-sm-3">
-      <img src={jess} alt="A young woman smiling and siting next to a plant" width="280px" id="profileImg" />
+      <div className="row">
+      <div className="col-sm-4">
+      <img src={jess} alt="A young woman smiling and siting next to a plant" width="280px" className="rounded-lg" />
         </div>
-      <div className="col-sm-7">
+      <div className="col-sm-6">
     
 
         <p className="about">
@@ -25,6 +26,7 @@ function Home() {
           favorite hobbies include photography and sewing. They keep me creating
           new things.
         </p>
+        </div>
       </div>
     </div>
   );

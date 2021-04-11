@@ -19,10 +19,10 @@ function ProjectsCard(props) {
       <div className="card-body">
         <h5 className="card-title">{props.name}</h5>
         <p className="card-text">{props.description}</p>
-        <a href={props.github} className="btn btn-primary">
+        <a href={props.github} className="btn btn-outline-info">
           GitHub
         </a>
-        <a href={props.app_page} className="btn btn-primary">
+        <a href={props.app_page} className="btn btn-outline-info font-black">
           App Page
         </a>
         </div>

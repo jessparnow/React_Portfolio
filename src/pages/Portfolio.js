@@ -9,7 +9,8 @@ class Portfolio extends Component {
   render() {
     
     return (
-      <div className="container">
+      <div className="container" style={{ paddingTop: "3rem" }}>
+        <p>Here's a few pieces of work I've done in my time in the UofM Coding Bootcamp.</p>
       
         {this.state.projects.map((projects) => (
           <ProjectsCard

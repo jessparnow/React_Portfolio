@@ -5,8 +5,9 @@ function Contact () {
     <div>
         <h1>Thank you for checking out my portfolio.</h1>
         <p>For Inquiries, please email me at jessparnow@gmail.com</p>
-        <a href="https://docs.google.com/document/d/1wjlTbEjQiM1cEKHRoKMQgrT_E0n-WR3A19BNK88U3ug/edit?usp=sharing">Resume</a><br />
-        <a href="https://www.linkedin.com/in/jessica-parnow-4626221b9/">LinkedIn Profile</a>
+        <a href="https://docs.google.com/document/d/1uFplgwEw_nSzWaoLBWzQKHOnNXjzyE7OMwyby2K3iP4/edit?usp=sharing" className="btn btn-outline-info">Resume</a>
+        <a href="https://www.linkedin.com/in/jessica-parnow-4626221b9/" className="btn btn-outline-info">LinkedIn Profile</a>
+        <a href="https://github.com/jessparnow" className="btn btn-outline-info">GitHub Profile</a>
     </div>
     )
 }
