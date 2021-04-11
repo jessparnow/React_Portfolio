@@ -1,10 +1,11 @@
 import React from "react";
 import jess from "../images/jess.jpg"
+import "./index.css"
 
 function Home() {
   return (
     <div>
-      <h1>About Me</h1>
+      <h1 className="header">About Me</h1>
       <div className="row">
       <div className="col-sm-4">
       <img src={jess} alt="A young woman smiling and siting next to a plant" width="280px" className="rounded-lg" />

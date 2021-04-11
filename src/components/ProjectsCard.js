@@ -1,11 +1,12 @@
 import React from "react";
+import "./index.css"
 
 function ProjectsCard(props) {
  
  console.log(props);
   return (
     
-    <div className="card mb-3" style={{ width: "540px;" }}>
+    <div className="card mb-3 transparent" style={{ width: "540px;" }}>
       <div className="row g-0">
       <div className="col-sm-4">
       <img
