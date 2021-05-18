@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ProjectsCard from "../components/ProjectsCard";
 import projects from "../portfolio.json";
+import "./index.css"
 
 class Portfolio extends Component {
   state = {
@@ -10,7 +11,7 @@ class Portfolio extends Component {
     
     return (
       <div className="container" style={{ paddingTop: "3rem" }}>
-        <p>Here's a few pieces of work I've done in my time in the UofM Coding Bootcamp.</p>
+        <p className="portfolio-header">Here's a few pieces of work I've done in my time in the UofM Coding Bootcamp.</p>
       
         {this.state.projects.map((projects) => (
           <ProjectsCard
