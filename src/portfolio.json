@@ -1,4 +1,12 @@
 [
+    
+    {
+        "name": "Paw's Date",
+        "image": "https://user-images.githubusercontent.com/71057611/119243640-3ced3380-bb2e-11eb-87d9-c4b286fed97b.png",
+        "description": "​Paw's date is an app developed by a group of pet lovers who enjoy making new friends and would like to extend the same opportunity to their pets. Create and account, add a little description about your pet, upload a profile picture and start matching! Plus benefit: Great memory for the dog name but never remember the owner's? Use the app to remind yourself.​",
+        "github": "https://github.com/jessparnow/Reacts-Child",
+        "app_page": "https://tranquil-beach-17376.herokuapp.com/"
+    },
     {
         "name": "Taco `Bout It",
         "image": "https://user-images.githubusercontent.com/71665063/105921055-fbc09900-5ffd-11eb-9a41-c74c7cd382df.png",
